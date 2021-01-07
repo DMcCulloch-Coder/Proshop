@@ -1,0 +1,25 @@
+{
+  "name": "mern-ecommerce",
+  "version": "1.0.0",
+  "description": "MERN ecommerce app",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "react-bootstrap": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMcCulloch-Coder/Proshop.git"
+  },
+  "author": "David McCulloch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DMcCulloch-Coder/Proshop/issues"
+  },
+  "homepage": "https://github.com/DMcCulloch-Coder/Proshop#readme"
+}
