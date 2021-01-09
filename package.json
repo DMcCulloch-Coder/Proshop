@@ -8,6 +8,7 @@
     "bootstrap": "^4.5.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongoose": "^5.11.11",
     "react-bootstrap": "^1.4.0"
   },
   "devDependencies": {
@@ -18,7 +19,8 @@
     "start": "node backend/server",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "connect:DB": "C:/Users/DMCCU/code/MongoDB/bin/mongod.exe --dbpath=C:/Users/DMCCU/code/MongoDB-data"
   },
   "repository": {
     "type": "git",
