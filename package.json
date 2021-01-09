@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MERN ecommerce app",
   "main": "server.js",
+  "type": "module",
   "dependencies": {
     "bootstrap": "^4.5.3",
     "dotenv": "^8.2.0",
